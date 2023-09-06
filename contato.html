@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNES - Contatos</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="container">
+        <main>
+            <header id="topo">
+                <div id="logo">
+                    <a href="index.html">
+                        <img src="imagens/logo.png" alt="logo">
+                    </a>
+                </div>
+                <nav id="menu">
+                    <ul>
+                        <li> <a href="index.html">Home</a></li>
+                        <p>|</p>
+                        <li> <a href="sobre.html">Sobre</a></li>
+                        <p>|</p>
+                        <li class="atual"> <a href="contato.html">Contato</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <section class="secoes">
+                <h1>Entre em Contato com a UNES</h1>
+                <div class="conteudo">
+                    <p class="recuo">
+                        Fale conosco! Selecione o assunto, descreva sua dúvida, não esqueça de deixar o seu nome, email e telefone para contato. Nos teremos o maior prazer em esclarecer as suas dúvidas.
+                    </p>
+                    <h3>Preencha as Informações abaixo:</h3>
+                    <div>
+                        <form id="formulario">
+                            <label for="nome">Nome:</label>
+                            <input type="text" name="nome" id="nome" placeholder="Informe seu nome completo">
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" placeholder="ex: nnnnnnn@nnnnnnnnn.com.br">
+                            <label for="pelefone">Telefone:</label>
+                            <input type="tel" name="fone" id="fone" placeholder="ex:71-99999-9999">
+                            <label for="assunto">Assunto:</label>
+                            <select name="assunto" id="assunto">
+                                <option value="academico">Academico</option>
+                                <option value="financeiro">Finenceiro</option>
+                                <option value="secretaria">Secretaria</option>
+                                <option value="avaliaçoes">Avalizções e Notas</option>
+                                <option value="horarios">Quadro de Horários</option>
+                                <option value="outro">Outros</option>
+                            </select>
+                            <input type="submit" value="Enviar">
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="rodape">
+            <p>Todos os direitos reservados!</p>
+            <p>&copy;2023 - NZ-Tech</p>
+        </footer>
+    </div>
+</body>
+</html>
