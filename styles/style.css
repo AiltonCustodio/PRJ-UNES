@@ -122,11 +122,13 @@ input{
 #rodape{
     border-top: 3px solid #6d78a8;
     padding: 5px;
-    font-weight: bold;
     text-align: center;
 }
 
-@media screen and (max-width:425px){
+@media screen and (max-width:425px),
+screen and (max-width:492px),
+screen and (max-width:768px)
+{
 
     #container{
         margin: .5rem auto;
@@ -145,6 +147,41 @@ input{
         margin-bottom: 1rem;
 
     }
+    #menu li{
+        padding: 5px 20px;
+        width: 50%;
+    }
+
+    .img-topo img{
+        height: 100%;
+    }
+    input{
+        width: 100%;
+    }
+
+    #rodape{
+        font-weight:lighter;
+    }
+
+}
+
+@media screen and (max-width:768px)
+{
+
+    #container{
+        margin: .5rem auto;
+        max-width: 85%;
+        border-radius: 10px;
+    }
+
+
+    #topo{
+        padding: 2rem .5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     #menu li{
         padding: 5px 20px;
         width: 50%;
